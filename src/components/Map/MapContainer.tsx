@@ -77,6 +77,7 @@ export const MapContainer: React.FC<MapContainerProps> = ({
         zoom={11}
         style={{ height: '100%', width: '100%' }}
         className="map-container"
+        attributionControl={false}
       >
       {/* OpenStreetMap base layer */}
       <TileLayer
